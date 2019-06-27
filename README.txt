@@ -13,7 +13,7 @@ modo se hará con los árboles Black and Red y se analizará su complejidad.
 Ejecución:
 
 Para ejecutar el programa es ir a la carpeta mediante su consola o terminal al folder
-en el que se encuentra el programa, la carpeta de "Black and Red" o "Arboles_ABB"
+en el que se encuentra el programa, la carpeta de "Arboles_Rojo_y_Negro" o "Arboles_ABB"
 Debe ingresar y digitar en la consola o terminal:
 
 $ make
