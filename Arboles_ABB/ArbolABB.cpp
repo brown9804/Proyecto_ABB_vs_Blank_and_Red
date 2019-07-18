@@ -360,7 +360,7 @@ else
     return arbol_auxiliar_esta_completo(a->obtiene_izquierda(),cont-1) + arbol_auxiliar_esta_completo(a->obtiene_derecha(),cont-1);
 }
 
-bool ArbolABB::son_semejantes( ArbolABB* otroArbol){
+bool ArbolABB::compara_cant_elem( ArbolABB* otroArbol){
 if (raiz != NULL){
         if (otroArbol->ver_arbol(1) == ver_arbol(1))
             return true;
@@ -371,7 +371,7 @@ if (raiz != NULL){
     return false;
 }
 
-bool ArbolABB::son_isomorfos( ArbolABB* otroArbol){
+bool ArbolABB::de_altura_son_iguales( ArbolABB* otroArbol){
 if (raiz != NULL){
         for (int i =0;i<altura();i++){
             if (otroArbol->arbol_auxiliar_esta_completo(otroArbol->obtener_raiz(),i) != arbol_auxiliar_esta_completo(raiz,i))
