@@ -32,8 +32,8 @@ class ArbolABB
         string recorrer_arbol_por_ancho();
         bool arbol_esta_lleno();
         bool arbol_esta_completo();
-        bool son_semejantes( ArbolABB* );
-        bool son_isomorfos( ArbolABB* );
+        bool compara_cant_elem( ArbolABB* );
+        bool de_altura_son_iguales( ArbolABB* );
         string arbol_auxiliar_esta_completo(NodoArbol*,int);
         bool eliminar_nodo(int );
 
