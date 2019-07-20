@@ -88,7 +88,7 @@ cout<<"\n----------------------------------\n"<<endl;
 cout<<"Borrando hoja 29\n "<<elArbol->eliminar_nodo(29)<<endl;
 cout<<"Realizando un recorrido a lo ancho\n"<<elArbol->recorrer_arbol_por_ancho()<<endl;
 
-cout<<"Borrando nodo con 1 hijo 53 \n"<<elArbol->eliminar_nodo(53)<<endl;
+cout<<"Borrando nodo con 0 hijo 53 \n"<<elArbol->eliminar_nodo(53)<<endl;
 cout<<"Realizando un recorrido a lo ancho\n"<<elArbol->recorrer_arbol_por_ancho()<<endl;
 
 cout<<"Borrando nodo con dos hijos 12\n"<<elArbol->eliminar_nodo(12)<<endl;
